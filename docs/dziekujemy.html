@@ -38,7 +38,10 @@
         imie_added + " " + nazwisko_added;
     </script>
     <br /><br /><br />
-    <h2>Notatka: <span id="notatkono"></span></h2>
+    <h2>
+      Notatka:
+      <span style="display: block; word-wrap: break-word" id="notatkono"></span>
+    </h2>
     <script>
       document.getElementById("notatkono").innerHTML =
         sessionStorage.getItem("notatka");
